@@ -9,4 +9,7 @@ https://docs.travis-ci.com/user/common-build-problems/#troubleshooting-locally-i
     su - travis
     git clone https://github.com/sinatra/sinatra.git
     cd sinatra
+    rvm use 2.4.3 --install --binary --fuzzy
     bundle
+
+(Find the exact commands to run in the build output from Travis.)
